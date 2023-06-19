@@ -24,17 +24,14 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
-.wording {
-  position: relative;
-  top: 2rem;
-}
 
 h1 {
   max-width: 11em;
+  font-family: font-family: 'Display', sans-serif;
   font-size: 1.2rem;
-  font-family: font-family: 'Outfit', sans-serif;
   font-weight: 700;
 }
 
@@ -43,31 +40,29 @@ p {
   width: 13rem;
   font-size: 0.8rem;
   color: hsl(220, 15%, 55%);
-  font-family: 'Outfit', sans-serif;
+  font-family: 'outfit', sans-serif;
   font-weight: 400;
 
 }
 
 .white_card {
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 45px;
-  padding-top: 5px;
-  border-radius: 8px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 14px;
+  padding-top: 9px;
+  border-radius: 11px;
   background-color: hsl(0, 0%, 100%)
 }
 
 .scan_card {
   display: flex;
-  border-radius: 8px;
-  position: relative;
-  width: 14rem;
-  height: 173px;
-  top: 21px;
-  left: 18px;
+  border-radius: 11px;
+  width: 17rem;
+  
+  
 }
 
 .wording {
   text-align: -webkit-center;
-  width: 259px;
+  width: 267px;
 }
