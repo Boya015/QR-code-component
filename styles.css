@@ -1,0 +1,71 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light gray: hsl(212, 45%, 89%);
+  --Grayish blue: hsl(220, 15%, 55%);
+  --Dark blue: hsl(218, 44%, 22%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, main, div, img, h1, p, footer, {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+
+body{
+  min-height: 100vh;
+  background-color:  hsl(212, 45%, 89%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h1 {
+  font-family:'Outfit';
+  max-width: 12em;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+
+p {
+  width: 13rem;
+  font-size: 0.8rem;
+  color: hsl(220, 15%, 55%);
+  font-family: 'outfit', sans-serif;
+  font-weight: 400;
+
+}
+
+.white_card {
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 14px;
+  padding-top: 9px;
+  border-radius: 11px;
+  background-color: hsl(0, 0%, 100%)
+}
+
+.scan_card {
+  display: flex;
+  border-radius: 11px;
+  width: 17rem;
+  
+  
+}
+
+.wording {
+  text-align: -webkit-center;
+  width: 267px;
+}
