@@ -12,15 +12,26 @@
 }
 
 body, main, div, img, h1, p, footer, {
-  padding: 0;
   margin: 0;
-  font-size: 0;
 }
 
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
 
 body{
   min-height: 100vh;
   background-color:  hsl(212, 45%, 89%);
+  line-height: 1.5;
 }
 
 main {
