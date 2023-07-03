@@ -68,7 +68,8 @@ p {
   padding-bottom: 14px;
   padding-top: 9px;
   border-radius: 11px;
-  background-color: hsl(0, 0%, 100%)
+  background-color: hsl(0, 0%, 100%);
+  margin: 50px;
 }
 
 .scan_card {
