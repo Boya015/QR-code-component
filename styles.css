@@ -69,7 +69,7 @@ p {
   padding-top: 9px;
   border-radius: 11px;
   background-color: hsl(0, 0%, 100%);
- 
+ margin-top: 5rem;
 }
 
 .scan_card {
@@ -78,4 +78,8 @@ p {
   width: 17rem;
   
   
+}
+
+.attribution {
+display: none;
 }
